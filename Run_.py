@@ -18,7 +18,7 @@ def user_input():
     bill_depth_mm = st.sidebar.slider("Bill Depth (mm)", 13.0, 21.0, 17.0)
     flipper_length_mm = st.sidebar.slider("Flipper Length (mm)", 170, 230, 200)
     body_mass_g = st.sidebar.slider("Body Mass (g)", 2500, 6500, 4000)
-    sex = st.sidebar.selectbox("Sex", ["male", "female"])
+    sex = st.sidebar.selectbox("Gender", ["male", "female"])
 
 
     island_mapping = {"Biscoe": 0, "Dream": 1, "Torgersen": 2}
